@@ -45,4 +45,7 @@ Reinitialized existing Git repository in C:/Other software/Git/Git practice/.git
 * **git commit -m "message":** Saves changes from the Staging Area to your Local Repository with a descriptive note.
 * **git push:** Uploads local commits to the Central (Remote) Repository.
 
+  <img width="947" height="410" alt="image" src="https://github.com/user-attachments/assets/fd8417c1-3afc-4f30-96d8-27714965ad36" />
+
+
 
