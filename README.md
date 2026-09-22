@@ -120,3 +120,5 @@ When multiple developers modify the same file and same lines, your `git push` wi
 * **`git commit`**: Finalizes the resolution locally with a clear message explaining that the conflict was resolved.
 * **`git push`**: Pushes your successfully integrated code to the central repository so other team members can see your work.
   
+### when conflict will not occur -
+If we are modifying  different files then conflict will not occurred 
