@@ -122,3 +122,31 @@ When multiple developers modify the same file and same lines, your `git push` wi
   
 ### when conflict will not occur -
 If we are modifying  different files then conflict will not occurred 
+### how to identify working directory
+.git folder will be available 
+
+if it is not showing go to file explorer options and in view option you need to click on the show hidden files.
+
+### what is Git GUI-
+it is a desktop tool to perform git operations.
+execute the below command in working tree to open the git gui
+** $git gui  
+<img width="1107" height="543" alt="image" src="https://github.com/user-attachments/assets/b2a26ef7-4b10-4b73-bd36-22a9da195a8d" />
+
+<img width="1130" height="582" alt="image" src="https://github.com/user-attachments/assets/3911b475-4705-4a50-833a-09f286bc7ec7" />
+<img width="1132" height="606" alt="image" src="https://github.com/user-attachments/assets/ffa8eeef-16bf-4bf7-a0a2-f40c6c576e8c" />
+
+### what is .gitignore file
+it is used to specify files and folders to skip from git operations. 
+git hub is to update the source code not for bit codes
+
+### how to work with branches
+**Git Branches**
+<img width="798" height="375" alt="image" src="https://github.com/user-attachments/assets/cabc3bea-bd27-4c8b-ba83-5b354242a5ac" />
+## when multiple team is working on the same repo then project delivery will become very difficult.
+** To make our project delivery process simple. we need to maintain multiple branchess in git hub repo.
+## Note For every team on git branch is recommended.
+** by using branches, multiple team can work parallelly.
+<img width="692" height="309" alt="image" src="https://github.com/user-attachments/assets/45c4d6b6-50ad-49a6-a3bd-b98700e952b1" />
+
+
