@@ -152,3 +152,12 @@ git hub is to update the source code not for bit codes
 <img width="759" height="358" alt="image" src="https://github.com/user-attachments/assets/8562f420-0f3a-4bbb-9ad0-7020cd2bae19" />
 
 **By using pull request we can merge brach into main branch
+## Lab Task
+** Go to git hub repository and create develop branch from main branch
+** clone git repo( by default main branch will come)
+   $ git clone <url>
+** switch from main to develop
+   $git checkout develop
+** Create a file and push to develop branch
+** Create pull request and merge develop branch changes to main branch. 
+End of the day code will be available in main branch.
