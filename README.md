@@ -17,11 +17,11 @@ command and notes
 Before performing operations, identify yourself to the Git client. This is a one-time process:
 
 ## Bash command --
-git config --global user.name Rohit Singh
-git config --global user.email rohitsinghg20@gmail.com
+**git config --global user.name Rohit Singh
+** git config --global user.email rohitsinghg20@gmail.com
 
 ## If its needed to change these setting 
-git config --global --unset user.name Rohit Singh
+**git config --global --unset user.name Rohit Singh
 
 ### Core Git Architecture
 * **Working Tree:** Your local project folder where you actively create and modify files.
@@ -46,6 +46,35 @@ Reinitialized existing Git repository in C:/Other software/Git/Git practice/.git
 * **git push:** Uploads local commits to the Central (Remote) Repository.
 
   <img width="947" height="410" alt="image" src="https://github.com/user-attachments/assets/fd8417c1-3afc-4f30-96d8-27714965ad36" />
+ **Git workflows** and practical commands. Understanding these concepts, along with how to track file statuses via terminal colors, is fundamental to mastering the **Git lifecycle**.
 
+### Key Git Architecture
+ **Working Tree:** The local project folder where you create and modify files. Files here are "untracked" or "modified" and initially appear in **red** when you run `git status` 
+ **Staging Area:** An intermediate zone for files prepared for a commit Once you add a file, it turns **green** in `git status`, signifying it is eligible for a commit.
+ **Local Repository:** The version-controlled history stored on your machine. Running `git commit` moves staged (green) files here.
+* **Central Repository:** A remote location (e.g., *GitHub*) where code is integrated for team access.
+
+### Essential Git Commands
+git init: Initializes a project folder as a Git repository 
+git add: Moves files from the working tree to the staging area 
+git commit: Saves staged files to the local repository. Use -m to add a descriptive message.
+git push: Transfers committed files from the local to the central repository
+git status: Checks the state of files (unstaged vs. staged).
+git log: Views the history of your commits .
+git restore: Use git restore --staged to unstage a file without losing changes.
+git rm: Removes a file from the project.
+git clone: Downloads an entire repository from a central server.
+git pull: Downloads and integrates latest changes from the central repository.
+git remote add: Links your local repository to a specific central repository URL.
+### Workflow Summary & File Colors
+* **Working Tree (Red state):** You create or update files. They are visible but sit outside the staging area.
+* **Staging Area (Green state):** Run `git add` to prepare files for the next commit.
+* **Local Repository:** Run `git commit` to permanently save your changes.
+* **Central Repository:** Run `git push` to publish changes to the remote server.
+
+### Additional Notes
+* **README.md:** A user manual or description for your repository .
+* **Git Ignore:** A file used to skip specific files or folders (like `target` or system configs) from Git operations .
+* **Handling Conflicts:** When multiple developers modify the same code, you must manually resolve conflicts before committing and pushing.
 
 
