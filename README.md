@@ -55,17 +55,18 @@ Reinitialized existing Git repository in C:/Other software/Git/Git practice/.git
 * **Central Repository:** A remote location (e.g., *GitHub*) where code is integrated for team access.
 
 ### Essential Git Commands
-git init: Initializes a project folder as a Git repository 
-git add: Moves files from the working tree to the staging area 
-git commit: Saves staged files to the local repository. Use -m to add a descriptive message.
-git push: Transfers committed files from the local to the central repository
-git status: Checks the state of files (unstaged vs. staged).
-git log: Views the history of your commits .
-git restore: Use git restore --staged to unstage a file without losing changes.
-git rm: Removes a file from the project.
-git clone: Downloads an entire repository from a central server.
-git pull: Downloads and integrates latest changes from the central repository.
-git remote add: Links your local repository to a specific central repository URL.
+1. `git init`: Initializes a project folder as a Git repository.
+2. `git add`: Moves files from the working tree to the staging area. 
+3. `git commit`: Saves staged files to the local repository. Use `-m` to add a descriptive message.
+4. `git push`: Transfers committed files from the local to the central repository.
+5. `git status`: Checks the state of files (unstaged vs. staged).
+6. `git log`: Views the history of your commits.
+7. `git restore`: Use `git restore --staged <file>` to unstage a file without losing changes.
+8. `git rm`: Removes a file from the project.
+9. `git clone`: Downloads an entire repository from a central server.
+10. `git pull`: Downloads and integrates latest changes from the central repository.
+11. `git remote add`: Links your local repository to a specific central repository URL.
+
 ### Workflow Summary & File Colors
 * **Working Tree (Red state):** You create or update files. They are visible but sit outside the staging area.
 * **Staging Area (Green state):** Run `git add` to prepare files for the next commit.
@@ -73,8 +74,8 @@ git remote add: Links your local repository to a specific central repository URL
 * **Central Repository:** Run `git push` to publish changes to the remote server.
 
 ### Additional Notes
-* **README.md:** A user manual or description for your repository .
-* **Git Ignore:** A file used to skip specific files or folders (like `target` or system configs) from Git operations .
+* **README.md:** A user manual or description for your repository.
+* **Git Ignore:** A file used to skip specific files or folders (like `target` or system configs) from Git operations.
 * **Handling Conflicts:** When multiple developers modify the same code, you must manually resolve conflicts before committing and pushing.
 
 
