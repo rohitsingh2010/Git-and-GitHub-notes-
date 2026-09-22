@@ -179,5 +179,13 @@ Forking and Collaboration: the concept of forking , which allows developers to c
 ## Remote Operations
 * git fetch : This downloads changes from the remote to your local repository without merging them immediately into your working tree. Use this for more control compared to git pull.
 * git fork : This allows you to create a personal copy of someone else's repository on your own GitHub account, making you the owner of that copy so you can propose or implement changes.
+* <img width="896" height="315" alt="image" src="https://github.com/user-attachments/assets/2741cfb5-caef-48c6-8411-0a0554269d08" />
 
 
+## Git Cherry-pick: Used to merge a specific commit from one branch to another, rather than merging an entire branch.
+<img width="922" height="329" alt="image" src="https://github.com/user-attachments/assets/d84f9032-b913-4e26-b654-035060edeae3" />
+
+## Pull vs. Fetch: Explains that git pull downloads and merges changes directly, whereas git fetch only downloads changes to the local repository for review before merging
+<img width="583" height="376" alt="image" src="https://github.com/user-attachments/assets/c145024e-c655-45fb-8dfe-d0bebf132f34" />
+
+<img width="950" height="451" alt="image" src="https://github.com/user-attachments/assets/5716229b-3129-45da-9cef-9155888b4f3d" />
