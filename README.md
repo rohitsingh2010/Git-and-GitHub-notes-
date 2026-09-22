@@ -67,6 +67,15 @@ Reinitialized existing Git repository in C:/Other software/Git/Git practice/.git
 10. `git pull`: Downloads and integrates latest changes from the central repository.
 11. `git remote add`: Links your local repository to a specific central repository URL.
 
+
+What is the difference between pull and clone?
+
+* **Git Clone:** Use this command **only once** when you first join a project. It downloads the entire repository, including all files and history, from the central server to your local machine.
+* **Git Pull:** Use this command **on a daily basis** (or whenever you start your work) to download only the latest updates or changes made by other developers to your existing local project. 
+
+In short, **clone** is for grabbing the full project at the start, while **pull** is for keeping your local files in sync with the latest progress from the team.
+
+
 ### Workflow Summary & File Colors
 * **Working Tree (Red state):** You create or update files. They are visible but sit outside the staging area.
 * **Staging Area (Green state):** Run `git add` to prepare files for the next commit.
