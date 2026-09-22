@@ -161,3 +161,23 @@ git hub is to update the source code not for bit codes
 ** Create a file and push to develop branch
 ** Create pull request and merge develop branch changes to main branch. 
 End of the day code will be available in main branch.
+
+## Managing Workflow Interruptions
+**Git Stash**: A key concept introduced is git stash . 
+When a developer is in the middle of a task but is suddenly assigned a higher-priority, critical fix, they can use git stash to move their current, uncommitted changes to a temporary storage area. This leaves the working tree clean and ready for the urgent task.
+Restoring Progress: Once the high-priority task is completed, the developer can use **git stash apply** to bring their original, in-progress code back into the working tree to continue their work.
+## Advanced Repository Operations
+Local History Management: ** git reset**  how to remove local commits using either soft or hard resets. This is useful for undoing work that was committed locally but should not be pushed to the central repository.
+Forking and Collaboration: the concept of forking , which allows developers to copy another user's repository to their own account to suggest changes. It also covers adding collaborators  to grant specific permissions for pushing code to a shared repository.
+
+## Utility Commands for Workflow
+ * git stash : Use this to temporarily save uncommitted changes in your working tree to a backup area. This is essential when you are interrupted and need to switch to a high-priority task without losing your current progress.
+* git stash apply : Once your urgent task is finished, this command restores your stashed changes back into your working tree so you can resume your original work.
+* git reset : A powerful command to remove local commits. You can use soft reset to keep changes in the staging area or hard reset to delete changes entirely from the working tree.
+* Reset vs. Revert: A key distinction: git reset is used for removing local commits, while git revert is used for undoing commits already pushed to the central repository ** git revert <commint ID>
+* git cherry-pick: Instead of merging an entire branch, this command allows you to integrate a specific, single commit from one branch into another.
+## Remote Operations
+* git fetch : This downloads changes from the remote to your local repository without merging them immediately into your working tree. Use this for more control compared to git pull.
+* git fork : This allows you to create a personal copy of someone else's repository on your own GitHub account, making you the owner of that copy so you can propose or implement changes.
+
+
